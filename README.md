@@ -24,17 +24,17 @@ var jsonld_request = require('jsonld-request');
 
 ```js
 // read from stdin
-var jsonld_request('-', function(err, res, data) {
+jsonld_request('-', function(err, res, data) {
   // handle errors or use data
 });
 
 // read from URL
-var jsonld_request('https://www.example.com/resource', function(err, res, data) {
+jsonld_request('https://www.example.com/resource', function(err, res, data) {
   // handle errors or use data
 });
 
 // read from file
-var jsonld_request('file.jsonld', function(err, res, data) {
+jsonld_request('file.jsonld', function(err, res, data) {
   // handle errors or use data
 });
 ```
