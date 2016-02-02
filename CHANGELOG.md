@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### Changed
+- Remove space before q parameters in Accept header.
+
+## [0.1.0]
+
 ### Added
 - Split out request code from jsonld.js.
 
