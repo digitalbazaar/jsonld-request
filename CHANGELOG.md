@@ -1,5 +1,7 @@
 # jsonld-request ChangeLog
 
+## 0.2.0 - 2017-12-18
+
 ## Changed
 - Update dependencies.
 
