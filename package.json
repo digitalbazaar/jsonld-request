@@ -29,13 +29,13 @@
   "license": "BSD-3-Clause",
   "main": "lib/request.js",
   "dependencies": {
-    "jsdom": "^3.1.0",
+    "jsdom": "^11.5.1",
     "jsonld": "^0.4.0",
-    "request": "^2.61.0"
+    "request": "^2.83.0"
   },
   "devDependencies": {
-    "jscs": "^2.1.1",
-    "jshint": "^2.8.0"
+    "jscs": "^3.0.1",
+    "jshint": "^2.9.5"
   },
   "engines": {
     "node": "*"

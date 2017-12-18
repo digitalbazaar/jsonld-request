@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## Changed
+- Update dependencies.
+
 ## [0.1.1]
 
 ### Changed
