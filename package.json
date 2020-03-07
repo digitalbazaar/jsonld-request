@@ -29,7 +29,7 @@
   "license": "BSD-3-Clause",
   "main": "lib/request.js",
   "dependencies": {
-    "jsdom": "^11.5.1",
+    "jsdom": "^15.2.0",
     "jsonld": "^0.4.0",
     "request": "^2.83.0"
   },
