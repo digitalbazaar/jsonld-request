@@ -31,7 +31,8 @@
   "dependencies": {
     "jsdom": "^11.5.1",
     "jsonld": "^0.4.0",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "snyk": "^1.316.2"
   },
   "devDependencies": {
     "jscs": "^3.0.1",
@@ -51,6 +52,9 @@
   ],
   "scripts": {
     "jscs": "jscs lib/request.js",
-    "jshint": "jshint lib/request.js"
-  }
+    "jshint": "jshint lib/request.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
