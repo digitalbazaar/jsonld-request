@@ -1,5 +1,11 @@
 # jsonld-request ChangeLog
 
+## 1.0.0 - 2022-xx-xx
+
+## Changed
+- Update dependencies.
+- Modernize.
+
 ## 0.2.0 - 2017-12-18
 
 ## Changed
