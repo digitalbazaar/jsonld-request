@@ -33,12 +33,12 @@
     "lib"
   ],
   "dependencies": {
+    "@xmldom/xmldom": "^0.8.2",
     "content-type": "^1.0.4",
     "get-stdin": "^9.0.0",
     "got": "^12.0.3",
     "jsonld": "^5.2.0",
-    "rdfa": "0.0.10",
-    "xmldom": "^0.6.0"
+    "rdfa": "0.0.10"
   },
   "devDependencies": {
     "eslint": "^8.13.0",
