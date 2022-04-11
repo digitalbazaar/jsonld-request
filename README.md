@@ -6,7 +6,7 @@ jsonld-request
 Introduction
 ------------
 
-This JavaScript [node.js][] library is used to read data from stdin, URLs, or
+This JavaScript [Node.js][] library is used to read data from stdin, URLs, or
 files and convert to [JSON-LD][] via [jsonld.js][].  It can process JSON-LD in
 JSON and RDFa in HTML and output JSON-LD.
 
@@ -17,26 +17,22 @@ npm install jsonld-request
 ```
 
 ```js
-var jsonld_request = require('jsonld-request');
+import {request} from 'jsonld-request';
 ```
 
 ## Usage
 
 ```js
 // read from stdin
-jsonld_request('-', function(err, res, data) {
-  // handle errors or use data
+const {response, data} = await request('-');
 });
 
 // read from URL
-jsonld_request('https://www.example.com/resource', function(err, res, data) {
-  // handle errors or use data
+const {response, data} = await request('https://www.example.com/resource');
 });
 
 // read from file
-jsonld_request('file.jsonld', function(err, res, data) {
-  // handle errors or use data
-});
+const {response, data} = await request('file.jsonld');
 ```
 
 Commercial Support
@@ -48,11 +44,11 @@ Commercial support for this library is available upon request from
 Source Code
 -----------
 
-http://github.com/digitalbazaar/jsonld-request
+https://github.com/digitalbazaar/jsonld-request
 
-[Digital Bazaar]: http://digitalbazaar.com/
-[JSON-LD]: http://json-ld.org/
+[Digital Bazaar]: https://digitalbazaar.com/
+[JSON-LD]: https://json-ld.org/
+[Node.js]: https://nodejs.org/
 [RDFa]: http://www.w3.org/TR/rdfa-core/
 [json-ld.org]: https://github.com/json-ld/json-ld.org
 [jsonld.js]: https://github.com/digitalbazaar/jsonld.js
-[node.js]: https://nodejs.org/

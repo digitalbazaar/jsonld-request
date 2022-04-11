@@ -5,6 +5,14 @@
 ## Changed
 - Update dependencies.
 - Modernize.
+- **BREAKING**: Convert to module.
+- **BREAKING**: Switch from callbacks to `async`/`await`.
+- **BREAKING**: Switch from deprecated `request` to `got`. Any/all options
+  passed may need to be adjusted. Notably passing `https` or `agent` properly
+  for `rejectUnauthorized` support.
+- Switch from bundled `rdfa.js` to `rdfa` package.
+- Switch from `jsdom` to `xmldom`.
+- Switch from custom stream code to `get-stdin`.
 
 ## 0.2.0 - 2017-12-18
 
