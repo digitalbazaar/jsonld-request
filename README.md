@@ -1,8 +1,6 @@
 jsonld-request
 ==============
 
-[![Dependency Status](https://img.shields.io/david/digitalbazaar/jsonld-request.svg)](https://david-dm.org/digitalbazaar/jsonld-request)
-
 Introduction
 ------------
 
