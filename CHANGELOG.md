@@ -11,7 +11,7 @@
   passed may need to be adjusted. Notably passing `https` or `agent` properly
   for `rejectUnauthorized` support.
 - Switch from bundled `rdfa.js` to `rdfa` package.
-- Switch from `jsdom` to `xmldom`.
+- Switch from `jsdom` to `@xmldom/xmldom`.
 - Switch from custom stream code to `get-stdin`.
 
 ## 0.2.0 - 2017-12-18
