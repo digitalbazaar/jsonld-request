@@ -61,7 +61,7 @@ Options include:
 - **encoding**: The data encoding. (default: utf8)
 - **dataType**: The data type as a media type or shorthand. (default:
   auto-detect)
-- **headers**: Headers for the request (default: none).
+- **headers**: Headers for the request (default: `Accept`).
 - **agent**: An agent to use for HTTP/HTTPS requests (default: none);
 
 See [`@digitalbazaar/http-client`](https://github.com/digitalbazaar/http-client)
