@@ -6,6 +6,7 @@
 - Update dependencies.
 - Modernize.
 - **BREAKING**: Convert to module.
+- **BREAKING**: Change main export to `jsonledRequest`.
 - **BREAKING**: Switch from callbacks to `async`/`await`.
 - **BREAKING**: Switch from deprecated `request` to
   `@digitalbazaar/http-client`. Any/all options passed may need to be adjusted.

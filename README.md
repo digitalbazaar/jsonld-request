@@ -15,22 +15,22 @@ npm install jsonld-request
 ```
 
 ```js
-import {request} from 'jsonld-request';
+import {jsonldRequest} from 'jsonld-request';
 ```
 
 ## Usage
 
 ```js
 // read from stdin
-const {response, data} = await request('-');
+const {response, data} = await jsonldRequest('-');
 });
 
 // read from URL
-const {response, data} = await request('https://www.example.com/resource');
+const {response, data} = await jsonldRequest('https://www.example.com/resource');
 });
 
 // read from file
-const {response, data} = await request('file.jsonld');
+const {response, data} = await jsonldRequest('file.jsonld');
 ```
 
 Commercial Support
