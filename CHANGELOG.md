@@ -4,6 +4,9 @@
 
 ## Fixed
 - Improve error causes.
+- Fix base usage.
+- Fix RDFa type handling.
+- Improve format detection.
 
 ## 1.0.0 - 2022-04-15
 
