@@ -25,7 +25,7 @@ import {jsonldRequest} from 'jsonld-request';
 Read from stdin:
 
 ```js
-const {response, data} = await jsonldRequest('-');
+const {data} = await jsonldRequest('-');
 ```
 
 Read from URL:
@@ -37,7 +37,7 @@ const {response, data} = await jsonldRequest('https://www.example.com/resource')
 Read from file:
 
 ```js
-const {response, data} = await jsonldRequest('file.jsonld');
+const {data} = await jsonldRequest('file.jsonld');
 ```
 
 Read from URL with headers and agent:
@@ -55,6 +55,14 @@ const {response, data} = await jsonldRequest('https://www.example.com/resource',
   headers, agent
 });
 ```
+
+Options include:
+- **base**: The document base. (default: auto-detect)
+- **encoding**: The data encoding. (default: utf8)
+- **dataType**: The data type as a media type or shorthand. (default:
+  auto-detect)
+- **headers**: Headers for the request (default: none).
+- **agent**: An agent to use for HTTP/HTTPS requests (default: none);
 
 See [`@digitalbazaar/http-client`](https://github.com/digitalbazaar/http-client)
 for other options.
