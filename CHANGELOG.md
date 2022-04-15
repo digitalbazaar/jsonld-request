@@ -1,5 +1,10 @@
 # jsonld-request ChangeLog
 
+## 1.0.1 - 2022-xx-xx
+
+## Fixed
+- Improve error causes.
+
 ## 1.0.0 - 2022-04-15
 
 ## Changed
