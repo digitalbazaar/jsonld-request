@@ -1,6 +1,6 @@
 {
   "name": "jsonld-request",
-  "version": "1.0.1",
+  "version": "1.0.2-0",
   "description": "A library to read JSON-LD from stdin, URLs, and files.",
   "homepage": "https://github.com/digitalbazaar/jsonld-request",
   "author": {
