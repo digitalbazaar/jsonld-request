@@ -23,11 +23,9 @@ import {jsonldRequest} from 'jsonld-request';
 ```js
 // read from stdin
 const {response, data} = await jsonldRequest('-');
-});
 
 // read from URL
 const {response, data} = await jsonldRequest('https://www.example.com/resource');
-});
 
 // read from file
 const {response, data} = await jsonldRequest('file.jsonld');
