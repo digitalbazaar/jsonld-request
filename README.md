@@ -14,22 +14,50 @@ JSON and RDFa in HTML and output JSON-LD.
 npm install jsonld-request
 ```
 
+## Usage
+
+Import the main function:
+
 ```js
 import {jsonldRequest} from 'jsonld-request';
 ```
 
-## Usage
+Read from stdin:
 
 ```js
-// read from stdin
 const {response, data} = await jsonldRequest('-');
+```
 
-// read from URL
+Read from URL:
+
+```js
 const {response, data} = await jsonldRequest('https://www.example.com/resource');
+```
 
-// read from file
+Read from file:
+
+```js
 const {response, data} = await jsonldRequest('file.jsonld');
 ```
+
+Read from URL with headers and agent:
+
+```js
+import https from 'https';
+// use custom headers
+const headers = {
+  Example: 'example'
+};
+// use an agent to avoid self-signed certificate errors
+const agent = new https.Agent({rejectUnauthorized: false});
+
+const {response, data} = await jsonldRequest('https://www.example.com/resource', {
+  headers, agent
+});
+```
+
+See [`@digitalbazaar/http-client`](https://github.com/digitalbazaar/http-client)
+for other options.
 
 Commercial Support
 ------------------
