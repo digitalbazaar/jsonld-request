@@ -42,7 +42,8 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-config-digitalbazaar": "^2.8.0"
+    "eslint-config-digitalbazaar": "^2.8.0",
+    "eslint-plugin-jsdoc": "^39.2.1"
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
