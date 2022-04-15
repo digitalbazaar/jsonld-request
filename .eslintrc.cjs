@@ -8,6 +8,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020
   },
-  extends: 'eslint-config-digitalbazaar',
+  extends: [
+    'digitalbazaar',
+    'digitalbazaar/jsdoc'
+  ],
   root: true
 };
