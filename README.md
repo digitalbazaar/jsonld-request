@@ -5,7 +5,7 @@ Introduction
 ------------
 
 This JavaScript [Node.js][] library is used to read data from stdin, URLs, or
-files and convert to [JSON-LD][] via [jsonld.js][].  It can process JSON-LD in
+files and convert to [JSON-LD][] via [jsonld.js][]. It can process JSON-LD in
 JSON and RDFa in HTML and output JSON-LD.
 
 ## Installation
