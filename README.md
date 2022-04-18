@@ -67,6 +67,14 @@ Options include:
 See [`@digitalbazaar/http-client`](https://github.com/digitalbazaar/http-client)
 for other options.
 
+Security Considerations
+-----------------------
+
+**WARNING**: This code can load from stdin and arbitrary file locations! It is
+intended to provide low level support for resource loading. Please make sure
+the calling code sanitizes inputs to avoid security issues. Do not use this as
+a plain [jsonld.js][] document loader without proper protections!
+
 Commercial Support
 ------------------
 
