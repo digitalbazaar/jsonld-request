@@ -4,6 +4,7 @@
 
 ## Changed
 - **BREAKING**: Only support Node.js >=14.
+- Update dependencies.
 
 ## 1.0.1 - 2022-04-15
 

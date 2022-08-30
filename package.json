@@ -33,11 +33,11 @@
     "lib/**/*.js"
   ],
   "dependencies": {
-    "@digitalbazaar/http-client": "^2.0.1",
+    "@digitalbazaar/http-client": "^3.2.0",
     "@xmldom/xmldom": "^0.8.2",
     "content-type": "^1.0.4",
     "get-stdin": "^9.0.0",
-    "jsonld": "^5.2.0",
+    "jsonld": "^8.1.0",
     "rdfa": "0.0.10"
   },
   "devDependencies": {
