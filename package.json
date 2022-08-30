@@ -30,7 +30,7 @@
   "type": "module",
   "exports": "./lib/index.js",
   "files": [
-    "lib"
+    "lib/**/*.js"
   ],
   "dependencies": {
     "@digitalbazaar/http-client": "^2.0.1",
