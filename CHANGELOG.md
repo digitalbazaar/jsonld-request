@@ -6,6 +6,9 @@
 - **BREAKING**: Only support Node.js >=14.
 - Update dependencies.
 
+## Added
+- Add `allow` option with list of allowed loaders.
+
 ## 1.0.1 - 2022-04-15
 
 ## Fixed

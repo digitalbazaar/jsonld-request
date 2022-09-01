@@ -61,8 +61,10 @@ Options include:
 - **encoding**: The data encoding. (default: utf8)
 - **dataType**: The data type as a media type or shorthand. (default:
   auto-detect)
-- **headers**: Headers for the request (default: `Accept`).
-- **agent**: An agent to use for HTTP/HTTPS requests (default: none);
+- **headers**: Headers for the request. (default: `Accept`).
+- **agent**: An agent to use for HTTP/HTTPS requests. (default: none)
+- **allow**: Array of allowed loaders. (default: `['stdin', 'file', 'http',
+  'https']`)
 
 See [`@digitalbazaar/http-client`](https://github.com/digitalbazaar/http-client)
 for other options.
@@ -74,6 +76,8 @@ Security Considerations
 intended to provide low level support for resource loading. Please make sure
 the calling code sanitizes inputs to avoid security issues. Do not use this as
 a plain [jsonld.js][] document loader without proper protections!
+
+The `allow` option can assist in only enabling certain loaders.
 
 Commercial Support
 ------------------
