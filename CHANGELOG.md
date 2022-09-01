@@ -1,6 +1,6 @@
 # jsonld-request ChangeLog
 
-## 2.0.0 - 2022-xx-xx
+## 2.0.0 - 2022-08-31
 
 ## Changed
 - **BREAKING**: Only support Node.js >=14.
