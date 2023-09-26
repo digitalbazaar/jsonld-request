@@ -1,5 +1,10 @@
 # jsonld-request ChangeLog
 
+## 2.0.1 - 2023-09-xx
+
+### Fixed
+- Join RDFa N-Quads output with newlines.
+
 ## 2.0.0 - 2022-08-31
 
 ### Changed
