@@ -2,16 +2,16 @@
 
 ## 2.0.0 - 2022-08-31
 
-## Changed
+### Changed
 - **BREAKING**: Only support Node.js >=14.
 - Update dependencies.
 
-## Added
+### Added
 - Add `allow` option with list of allowed loaders.
 
 ## 1.0.1 - 2022-04-15
 
-## Fixed
+### Fixed
 - Improve error causes.
 - Fix base usage.
 - Fix RDFa type handling.
@@ -19,7 +19,7 @@
 
 ## 1.0.0 - 2022-04-15
 
-## Changed
+### Changed
 - Update dependencies.
 - Modernize.
 - **BREAKING**: Convert to module.
@@ -34,7 +34,7 @@
 
 ## 0.2.0 - 2017-12-18
 
-## Changed
+### Changed
 - Update dependencies.
 
 ## 0.1.1 - 2016-02-02
