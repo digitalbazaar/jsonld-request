@@ -41,10 +41,8 @@
     "rdfa": "^0.0.10"
   },
   "devDependencies": {
-    "eslint": "^8.23.0",
-    "eslint-config-digitalbazaar": "^4.1.0",
-    "eslint-plugin-jsdoc": "^39.3.6",
-    "eslint-plugin-unicorn": "^43.0.2"
+    "@digitalbazaar/eslint-config": "^8.0.1",
+    "eslint": "^9.39.4"
   },
   "engines": {
     "node": ">=14.13.1"
