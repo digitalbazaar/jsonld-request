@@ -17,7 +17,7 @@ describe('jsonldRequest', function() {
   let fixtureData;
 
   before(async () => {
-    fixturePath = path.join(__dirname, 'fixtures', 'sample.jsonld');
+    fixturePath = path.join(__dirname, 'data', 'sample.jsonld');
     fixtureData = await fs.readFile(fixturePath, 'utf8');
   });
 
