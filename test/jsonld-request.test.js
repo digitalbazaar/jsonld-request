@@ -1,5 +1,4 @@
 import * as chai from 'chai';
-import {fileURLToPath} from 'node:url';
 import {promises as fs} from 'node:fs';
 import http from 'node:http';
 import {jsonldRequest} from '../lib/index.js';
@@ -7,8 +6,6 @@ import path from 'node:path';
 import {spawn} from 'node:child_process';
 
 const should = chai.should();
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 describe('jsonldRequest', function() {
   this.timeout(10000);
@@ -17,7 +14,7 @@ describe('jsonldRequest', function() {
   let fixtureData;
 
   before(async () => {
-    fixturePath = path.join(__dirname, 'data', 'sample.jsonld');
+    fixturePath = path.join(import.meta.dirname, 'data', 'sample.jsonld');
     fixtureData = await fs.readFile(fixturePath, 'utf8');
   });
 
@@ -52,7 +49,7 @@ describe('jsonldRequest', function() {
   });
 
   it('reads JSON-LD from stdin (child process runner)', async () => {
-    const runner = path.join(__dirname, 'runner-stdin.js');
+    const runner = path.join(import.meta.dirname, 'runner-stdin.js');
     const child = spawn(
       process.execPath,
       [runner, '-']
