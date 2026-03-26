@@ -19,9 +19,7 @@ describe('jsonldRequest', function() {
   it('loads a local file (file://) and parses JSON-LD', async () => {
     const fileUrl = `file://${fixturePath}`;
     const {data} = await jsonldRequest(fileUrl, {allow: ['file']});
-    should.exist(data);
-    data.should.be.an('object');
-    data.should.have.property('@context');
+    data.should.deep.equal(JSON.parse(fixtureData));
   });
 
   it('loads JSON-LD over HTTP and parses it', async () => {
