@@ -8,8 +8,6 @@ import {spawn} from 'node:child_process';
 const should = chai.should();
 
 describe('jsonldRequest', function() {
-  this.timeout(10000);
-
   let fixturePath;
   let fixtureData;
 
