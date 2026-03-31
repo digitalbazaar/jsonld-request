@@ -1,5 +1,11 @@
 # jsonld-request ChangeLog
 
+## x.x.x - YYYY-MM-DD
+
+### Changed
+- Upgraded `@digitalbazaar/http-client` and `jsonld` to latest.
+- Set `engines.node` to current LTS versions.
+
 ## 2.0.1 - 2023-09-26
 
 ### Fixed
