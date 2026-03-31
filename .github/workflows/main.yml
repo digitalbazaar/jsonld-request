@@ -2,6 +2,8 @@ name: Main CI
 
 on: [push]
 
+permissions: {}
+
 jobs:
   lint:
     runs-on: ubuntu-latest
