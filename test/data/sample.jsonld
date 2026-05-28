@@ -1,0 +1,9 @@
+{
+  "@context": "https://www.w3.org/ns/credentials/v2",
+  "id": "urn:uuid:2a1d4ddb-bbda-43cb-8886-fda9855bcf5d",
+  "type": ["VerifiableCredential"],
+  "credentialSubject": {
+    "id": "did:example:123",
+    "name": "Example"
+  }
+}

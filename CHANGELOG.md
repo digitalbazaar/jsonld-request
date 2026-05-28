@@ -6,6 +6,9 @@
 - Upgraded `@digitalbazaar/http-client` and `jsonld` to latest.
 - Set `engines.node` to current LTS versions.
 
+### Fixed
+- Add mocha/chai tests for `stdin`, file, and `http` document loading.
+
 ## 2.0.1 - 2023-09-26
 
 ### Fixed
