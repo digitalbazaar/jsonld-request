@@ -37,8 +37,7 @@ describe('jsonldRequest', function() {
     try {
       const {data} = await jsonldRequest(url, {allow: ['http', 'https']});
       should.exist(data);
-      data.should.be.an('object');
-      data.should.have.property('@context');
+      data.should.deep.equal(JSON.parse(fixtureData));
     } finally {
       server.close();
     }
@@ -70,7 +69,6 @@ describe('jsonldRequest', function() {
     }
     const parsed = JSON.parse(stdout);
     should.exist(parsed);
-    parsed.should.be.an('object');
-    parsed.should.have.property('@context');
+    parsed.should.deep.equal(JSON.parse(fixtureData));
   });
 });

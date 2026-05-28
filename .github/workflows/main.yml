@@ -10,7 +10,7 @@ jobs:
     timeout-minutes: 10
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [24.x]
     steps:
     - uses: actions/checkout@v6
       with:
@@ -28,7 +28,7 @@ jobs:
     timeout-minutes: 360
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [20.x, 22.x, 24.x]
     steps:
     - uses: actions/checkout@v6
       with:
